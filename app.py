@@ -16,5 +16,17 @@ age = 20
 is_new = True
 
 # input
-name =input("What is your name? ")
+name = input("What is your name? ") # add this space so that the name gets entered with space after the question mark.
 print("Hello, " + name)
+
+name = input("What is your name? ")
+colour = input("What is your favourite colour? ")
+print(name, "likes", colour)
+
+birth_year = input("Birth year: ")
+age = 2024 - int(birth_year) # have to turn this string into an int
+print(age)
+
+weight = input("Weight: ")
+weight_kg = int(weight) * 0.45
+print(weight_kg)
