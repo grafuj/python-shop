@@ -26,6 +26,34 @@ strings have indices in python.
 and access is `my_string[0]` which returns `T`.
 
 There are also negative indices which proceed from the end of the string.
-`my_string[-2]` which returns `n`. The end is `-1` or `g` and one off is `-2` or `n`.
+`my_string[-2]` which returns `n`. The end is `-1` or `g` and one off is `-2` or `n`. When used to look within a string, this will be where the string stops.
 
 we can also access ranges or substrings using `print(my_string[0:6])` which prints `This i`. This is because python is wack and doesn't print the last one. smh fenceposting
+
+another example could be `print(my_string[0:3])` which returns `Thi`
+
+# lacking indexes
+substrings can be taken with only a starting or ending value.
+
+`print(my_string[0:])` which returns the entire string since we've started from the beginning
+`print(my_string[:])` which returns the entire string since we've started from the beginning
+
+python assumes the start is the first value and the end of string is the end value.
+
+`print(my_string[1:])` which removes the first character: `his is my first string`
+`print(my_string[:3])` which returns `Thi` and has the same fenceposting as before
+
+What about getting fancy with negative indices?
+
+`print(my_string[1:-1])` which returns `his is my first strin` as it removes first and last characters
+
+
+
+
+`print(my_string[0:3])`
+`print(my_string[0:3])`
+`print(my_string[0:3])`
+`print(my_string[0:3])`
+
+
+
