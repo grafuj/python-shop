@@ -47,11 +47,32 @@ What about getting fancy with negative indices?
 
 `print(my_string[1:-1])` which returns `his is my first strin` as it removes first and last characters
 
+# formatted strings vs. string concatenation
+
+`first_name = "Sam"`
+`last_name = "Bick"`
+
+`message = first_name + " [" + last_name + "] " + "knows python"`
+this is the frustrating way, JS uses template literals and python has it's own party trick
+
+this `f` stands for format and allows us to use curly braces to handle variables
+msg = f"{first} [{last}] is a coder"
+
+# string length
+
+Py's length function is `len(string)` and can be used on obj, array, str etc
+
+`print(len(my_string))` will return `23`. The `g` on the end of string is the 23rd character, no funny fenceposting.
+
+# string methods
+
+Why is length a separate function? Some mix of old programming languages. We're got uppers, we've got lowers, center,
+
+`print(my_string.upper())` returns `THIS IS MY FIRST STRING`
 
 
 
-`print(my_string[0:3])`
-`print(my_string[0:3])`
+
 `print(my_string[0:3])`
 `print(my_string[0:3])`
 
