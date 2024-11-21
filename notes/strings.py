@@ -17,5 +17,5 @@ msg = f"{first_name} [{last_name}] is a coder"
 
 my_string = "This is my first string"
 
-print(my_string.upper())
+print(my_string.title())
 print(len(my_string))
