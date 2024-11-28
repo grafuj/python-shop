@@ -104,4 +104,21 @@ elif is_wet:
   print("It's a wet, hot day")
 else:
   print("It's a cold, dry day")
+
+# compount statements
+if is_hot and is_wet:
+  print("logical or")
+elif is_hot or is_wet:
+  print("logical or")
+elif not is_hot or not is_wet:
+  print("logical or")
+
+  # comparison operators
+temp = 30
+if temp > 30:
+  print("is hot")
+  if temp == 30: # can use == or !=
+    print("is 30")
+else:
+    print("is not hot")
 ```
